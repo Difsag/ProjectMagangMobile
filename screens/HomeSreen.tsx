@@ -67,8 +67,8 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
         </TouchableOpacity>
       </View>
     </ImageBackground>
-    </SafeAreaView>
-  );
+    </SafeAreaView> //area ini untuk tempat semua komponen agar sesuai dengan ukurann hp
+      );
 };
 
 const styles = StyleSheet.create({

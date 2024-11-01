@@ -167,7 +167,7 @@ export const AuthProvider = ({children}) => {
     }
   };
 
-
+// jika akun login akan di check informasi akunya benar apa tidak di database
 
   
   
@@ -184,9 +184,6 @@ export const AuthProvider = ({children}) => {
   checkLoginStatus();
   
 
-
-
-
   const fetchUserDataByNIP = async () => {
     try {
       // Ambil 'nip' dari AsyncStorage
@@ -199,7 +196,7 @@ export const AuthProvider = ({children}) => {
       console.error('NIP tidak ditemukan di AsyncStorage');
       return null;
     }
-
+// jika  token saat diambil tidak ditemukan storage maka 
     if (!token) {
       console.error('Access token tidak ditemukan di AsyncStorage');
       return null;

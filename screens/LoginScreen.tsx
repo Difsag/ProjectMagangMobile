@@ -213,8 +213,10 @@ const LoginScreen: React.FC<Props> = ({ navigation }) => {
         
 
         {/* <View
-          
-        >
+          permintaan lupa password 
+          berhasil dikirim saat mengirim permintaan lupa password mengirim 
+          tambahkan kode lain sesuai kebutuhan, sepertii menampilkan pesan respon apii tidak berisi
+          kirim permintaan logout dengan token
           
         </View> */}
 
@@ -251,11 +253,6 @@ const LoginScreen: React.FC<Props> = ({ navigation }) => {
     </SafeAreaView>
     </ImageBackground>
   );
-
-
-            
-
-
 
 };
 

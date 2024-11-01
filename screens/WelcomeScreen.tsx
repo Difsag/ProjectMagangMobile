@@ -49,9 +49,6 @@ const WelcomeScreen: React.FC<Props> = ({ navigation: { navigate } }) => {
       </View>
 
 
-
-
-
       <View style={styles.contentContainer}>
         <Text
           style={{
@@ -139,3 +136,5 @@ const styles = StyleSheet.create({
 });
 
 export default WelcomeScreen;
+// when you insect a chat respones in the accesible videw you can use now the code block
+// custom editor supprot in floating windows
